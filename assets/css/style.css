@@ -1,48 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-}
-body{
     font-family: 'Roboto', sans-serif;
+    line-height:30px ;
+    font-weight: 300;
+    
+   
 }
-a{
-    text-decoration: none;
-    color: #333;
-    padding-bottom: 10px;
-    display: block;
+h1,h2,h3,h4, .logo, .menu{
+    font-weight: 700 ;
+}
+.projecet-date h1, .challenge-text h1{
+    margin-bottom: 20px;
 }
 .container-fluid{
     width: 95%;
     margin: 0 auto;
+    padding: 30px;   
+    color: #333;
+   
 }
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
-.header-area{
+.row{
+    
     display: flex;
     justify-content: space-between;
-}
-.logo-area, .menu-area{
-    font-size: 20px;
-    text-transform: uppercase;
-    padding: 40px 0;
-    font-weight: 600;
-}
-.hero-area{
-   
-    width: 100%;
-    height: 100vh;
-    background: #ddd;
-}
-.row{
-    display: flex;   
-    justify-content: space-between;   
-    margin-top: 70px;
+    
 }
 .col-md-6{
     width: 48%;
@@ -50,65 +39,112 @@ a{
 .col-md-4{
     width: 32%;
 }
-.boxed-btn{
-    display: inline-block;     
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-transform: uppercase;
+.menu{
+    position: fixed;
+    right: 70px;
 }
-.project-text h2{
-    margin-bottom: 80px;
+.menu a{
+    color: #333;
+    text-decoration: none;
 }
-.project-text p{
-    padding-left: 100px;
-    line-height: 1.8;
-}
-.project-image{
+.hero-area{
     width: 100%;
-    height: 400px;
-    background: #ddd;
+    height: 80vh;
 }
-.project-text.small-margin h3{
-    margin-bottom: 20px;
-}
-.project-text.small-margin p{
-   padding-left: 0px;
+.hero-text {
+    text-align: center;
+    padding: 200px 0;
 }
 
-.project-feature-image{
+.col-md-12 {
     width: 100%;
-    height: 280px;
+}
+
+.hero-text h4 {
+    margin-top: 30px;
+}
+.project-image {
+    width: 100%;
+    height: 350px;
     background: #ddd;
 }
 
-.best-selling{
-    width: 100%;
-    height: 400px;
-    background: #ddd;
+.projecet-text h1 {
+    margin-bottom: 30px;
 }
-.centered-btn{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
+
+.projecet-text p {
+    margin-left: 50px;
+    letter-spacing: 1px;
 
 }
-.branding-image{
+
+
+.project-date-section {
+    padding: 70px 0;
+}
+.project-bg-1,.project-bg-2,.project-bg-3{
     width: 100%;
-    height: 600px;
+    height: 250px;
     background: #ddd;
-    margin-top: 60px;
 }
-.footer-section{
-    margin-top: 150px;
-    margin-bottom: 100px;
+.project-gallery-section{
+    padding: 70px 0;
 }
-.footer-menu ul,.social-links ul{
+
+.gallery-bg-1{
+    width: 100%;
+    height: 350px;
+    background: #ddd;
+}
+.project-gallery-big{
+    padding: 70px 0;
+}
+.big-bg-1{
+    width: 100%;
+    height: 450px;
+    background: #ddd;
+}
+.footer-widget{
+   margin: 120px 0;
+}
+
+.site-info  {
+    margin-left: 30px;
+}
+
+.site-info p {
+    margin-bottom: 10px;
+}
+
+.site-info a {
+    color: #868B8E;
+    text-decoration: none;
+}
+
+.social-links ul, .footer-menu ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.site-info, .footer-menu, .social-links{
-    padding-left: 50px;
+
+.social-links ul li, .footer-menu ul li{
+    display: block;
+}
+
+.social-links ul li a, .footer-menu ul li a {
+    text-decoration: none;
+    color: #868B8E;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 300;
+}
+.boxed-btn {
+    padding: 10px 15px;
+    border: 1px solid #333;
+    color: #333;
+    text-decoration: none;
+    position: absolute;
+    right: 46%;
+    margin: 30px 0;
 }
